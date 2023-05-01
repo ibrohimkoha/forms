@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1130px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+
+.logo-box {
+  width: 112px;
+  height: 18px;
+}
+
+.navbar-box {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 26px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: 'Karla';
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #837D88;
+}
+
+.header-btn {
+  padding: 13px 28px;
+  background-color: transparent;
+  border: 3px solid black;
+}
+
+#hero {
+  width: 100%;
+  background-color: #2D2641;
+  background-image: url("/Group\ 17.svg");
+  background-repeat: no-repeat;
+  background-position: right -98px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero-info {
+  padding-top: 160px;
+  width: 540px;
+  height: 304px;
+}
+
+.hero-title {
+  font-family: 'DM Serif Display';
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #fff;
+}
+
+.hero-text {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.hero-img {
+  width: 540px;
+  height: 650px;
+}
+
+.hero-btn {
+  padding: 13px 28px;
+  background-color: transparent;
+  border: 3px solid #fff;
+  color: #fff;
+}
+
+.hero-imgBox {
+  padding-top: 63px;
+  margin-bottom: -63px;
+}
+
+.menu {
+  display: none;
+}
+
+#about {
+  padding-top: 305px;
+  padding-bottom: 200px;
+}
+
+.about-title {
+  font-family: 'DM Serif Display';
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #2C2830;
+  margin-bottom: 96px;
+}
+
+.about-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.about-item {
+  width: 30%;
+}
+
+.item-title {
+  margin-top: 32px;
+  margin-bottom: 16px;
+  font-family: 'DM Serif Display';
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: -0.388889px;
+  color: #2C2830;
+}
+
+.item-text {
+  font-family: 'Karla';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #837D88;
+}
+
+.about-item img {
+  width: 86px;
+  height: 86px;
+}
+.hero__{
+  width: 1110px;
+  height: 250px;
+  background-color: #2D2641;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-tittle{
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  color: #fff;
+}
+.hero_btn{
+  width: 160px;
+  height: 40px;
+  background-color: #fff;
+  
+}
+.hero_text{
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 165px;
+  margin-top: 200px;
+  margin-bottom: 36px;
+}
+.footer-link{
+  text-decoration: none;
+}
+.footer-list{
+  display: flex;
+}
+.footer-item{
+  list-style-type: none;
+}
+#foot{
+  display: flex;
+justify-content: space-around;
+}
+.foot-title{
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
+  
+  color: #837D88;
+  margin-bottom: 36px;
+}
+.foot-list{
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
+  
+  color: #2D2641;
+ 
+}
+.foot-item{
+  list-style-type: none;
+  margin-bottom: 16px;
+}
+.foot-1{
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 587px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .navbar-box {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  #hero {
+    flex-direction: column-reverse;
+    justify-content: stretch;
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+    justify-content: stretch;
+  }
+
+  .hero-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 15px;
+    width: 100%;
+    height: auto;
+  }
+
+  .hero-img {
+    width: 100%;
+    height: 451px;
+
+  }
+
+  .hero-title {
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.666667px;
+    margin-bottom: 16px;
+  }
+
+  .hero-text {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .hero-imgBox {
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .hero-btn {
+    margin: 0 auto;
+  }
+
+  .about-list {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+  .about-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 56px;
+  } 
+
+  .about-item img {
+    width: 86px;
+    height: 86px;
+  }
+
+  .item-text {
+    text-align: center;
+  }.about-title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.666667px;
+  }
+
+  
+#about {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.hero__{
+  width: 100%;
+  height: 344px;
+  background-color: #2D2641;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-tittle{
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+}
+.hero_btn{
+  width: 160px;
+  height: 40px;
+  background-color: #fff;
+}
+.footer{
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer-icon{
+  margin-bottom: 32px;
+}
+#foot{
+  flex-direction: column;
+}
+.foot-1{
+  display: flex;
+justify-content: center;
+}
+.foot-title{
+  display: flex;
+  justify-content: center;
+}
+.footer-list{
+  display: flex;
+  justify-content: center;
+}
+}
